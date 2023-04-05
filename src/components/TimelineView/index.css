@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  height: 100vh;
+  margin: auto;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main-head {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 25px;
+  color: #1e293b;
+  text-align: center;
+}
+
+.sub-head {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  color: #171f46;
+}
+
+@media screen and (max-width: 768px) {
+  .main-head {
+    font-size: 17px;
+  }
+  .sub-head {
+    font-size: 17px;
+  }
+}
+
+/* * {
+  border: 1px solid blue;
+} */
